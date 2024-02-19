@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: Inter;
+    background-color: #FAD824;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.saude {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    padding: 3rem 1.5rem;
+}
+
+.saude h2 {
+    font-family: Inter;
+    font-size: 2.3rem;
+  
+    color: #0A0A0A;
+}
+
+.saude p {
+    font-size: 1.5rem;
+    
+    color: #0A0A0A;
+}
+
+.modalidades {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    background-color: #262626;
+}
+
+.modalidades h2 {
+    margin: 2.5rem 1.5rem;
+
+    font-size: 2.25rem;
+
+    color: #FFF;
+}
+
+.area-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 80px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 25rem;
+
+    border-radius: 10px;
+    background-color: #FAD824;
+}
+
+.card:hover {
+    cursor: pointer;
+
+    border: 1px solid #fafafa;
+}
+
+.card img {
+    width: 20rem;
+    padding-top: 1.2rem;
+    border-radius: 0.6rem;
+}
+
+.card span {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+    color: #0A0A0A;
+}
+
+.button-modalidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-modalidades button {
+    width: 26rem;
+    height: 3rem;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    
+    border: none;
+    border-radius: 10px;
+    margin: 38px 0 28px;
+
+    background-color: #FAD824;
+}
+
+.button-modalidades button:hover {
+    cursor: pointer;
+    
+    border: 1px solid #fafafa;
+}
+
+.formulario {
+    display: flex;
+    height: calc(100vh - 12rem);
+    background-color: #262626;
+
+    justify-content: space-between;
+    padding: 0 4rem;
+  
+}
+
+.formulario div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.formulario div h2 {
+    font-family: Inter;
+    font-size: 2rem;
+
+    color: #FFF;
+}
+
+#formCadastro {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    width: 34rem;
+    margin: 0 4rem;
+    padding: 1.4rem;
+
+    border-radius: 10px;
+    border: 1px solid #FAD824
+}
+
+#formCadastro label {
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 700;
+    
+    color: #FFF;
+}
+
+#formCadastro input {
+    padding: 10px;
+
+    border: 1px solid #FAD824;
+    border-radius: 5px;
+
+    color: #FFF;
+    background-color: #262626;
+}
+
+#formCadastro input::placeholder {
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: italic;
+
+    color: #FFF;
+}
+
+#formLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    width: 34rem;
+    margin: 0 4rem;
+    padding: 1.4rem;
+
+    border-radius: 10px;
+    border: 1px solid #FAD824
+}
+
+#formLogin label {
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 700;
+    
+    color: #FFF;
+}
+
+#formLogin input {
+    padding: 10px;
+
+    border: 1px solid #FAD824;
+    border-radius: 5px;
+
+    color: #FFF;
+    background-color: #262626;
+}
+
+#formLogin input::placeholder {
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: italic;
+
+    color: #FFF;
+}
+
+#formLogin span, #formLogin a{
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: italic;
+    text-decoration: none;
+
+    color: #FFF;
+}
+
+.formBotao {
+    width: 155px;
+    height: 40px;
+    cursor: pointer;
+    margin: 14px 0;
+
+    border: none;
+    border-radius: 5px;
+
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 700;
+    
+    color: #000;
+    background-color: #FAD824;
+}
+
+.formBotao:hover {
+    opacity: 0.8;
+}
+
+#imagemCadastro {
+    width: 100%;
+    height: 100%;
+}
+
+.mensagemSucesso {
+    font-size: 1.2rem;
+    color: #FAD824;
+}
+
+.mensagemErro {
+    font-size: 1.2rem;
+    color: #fa2424;
+}
+
+#botaoVoltar {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    cursor: pointer;
+}

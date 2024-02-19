@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    height: 6rem;
+    
+    background-color: #FAD824;
+}
+
+nav {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+
+    color: #000;
+}
+
+#logo {
+    width: 6rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    padding: 1rem;
+}
+
+footer strong {
+    font-size: 1rem;
+    
+    color: #0A0A0A;
+}
